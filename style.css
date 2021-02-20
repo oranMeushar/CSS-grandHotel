@@ -470,7 +470,6 @@ footer{
 }
 
 .footer-top{
-    height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -496,12 +495,18 @@ footer{
 }
 
 .left, .right{
-    width: 35%;
    display: flex;
+   flex-direction: column;
    justify-content: space-between;
-   font-size: 2vmin;
+   font-size: 3vmin;
    background-color: white;
-   
+   padding: 1vmin;
+   text-align: center;
+   margin:4vmin;
+}
+
+.left{
+    margin-left: 12vmin;
 }
 .left-text{
     padding-left: 2%;
@@ -513,12 +518,13 @@ footer{
     width: 100%;
     text-align: justify;
     margin-top: 2%;
+    font-size: 4vmin;
 }
 .top-images img{
-    width: 25%;
-    height: 50%;
+    width: 14vmin;
+    height: 14vmin;
     align-self:center;
-    transform: translateX(-8%);
+    margin-bottom: 2vmin;
 }
 
 .top-images h3{
@@ -720,12 +726,12 @@ footer{
         flex-direction: column;
         justify-content: center;
         font-size: 4vmin;
+        
     }
     .row .img{
         width: 90%;
         height: 45%;
         margin-left: 3vmin;
-        
     }
     .nav-container{
         width: 6%;
