@@ -169,7 +169,7 @@ form{
 }
 
 form input{
-    width: 90%;
+    width: 80%;
     padding: 2%;
     border-radius: 1rem;
     outline: none;
@@ -182,12 +182,15 @@ form input{
     background-color:transparent;
     border: none;
     outline: none;
-    top:32%;
-    right: 7%;
+    top:13%;
+    right:12%;
+    
+    width:3.5vmin;
+    height:3.5vmin;
 }
 
 .search-button img{
-    width: 70%;
+    width: 100%;
 }
 
 .middle{
@@ -369,6 +372,7 @@ form input{
     background-color:rgb(203, 228, 211);
 }
 
+
 .gallery{
     margin-top: 3%;
     height: 80%;
@@ -474,11 +478,15 @@ footer{
     padding:1% 0;
 }
 .footer-top p{
-    font-size: 2vmin;
+    font-size: 3vmin;
     letter-spacing: 0.3vmin;
     width:50%;
     text-align: center;
     color:black;
+    
+}
+.h1-container + p{
+    color: white;
 }
 .top-images{
     display: flex;
@@ -714,8 +722,9 @@ footer{
         font-size: 4vmin;
     }
     .row .img{
-        width: 100%;
+        width: 90%;
         height: 45%;
+        margin-left: 3vmin;
         
     }
     .nav-container{
